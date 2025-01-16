@@ -145,6 +145,13 @@ header .contents {
 	background: url("../images/1.jpg") no-repeat center center / cover;	/*背景画像の読み込み*/
 }
 
+@media screen and (min-width: 801px) {
+header .contents {
+	height: 100vh !important;
+	}
+}
+
+
 header .contents a {color: inherit;}
 
 /*ロゴ、謳い文句、ロゴ上の装飾画像を囲むボックス*/
